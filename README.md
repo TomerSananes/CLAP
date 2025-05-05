@@ -21,7 +21,7 @@ Follow these steps to set up a conda environment and ensure all necessary packag
 git clone https://github.com/AnasEmad11/CLAP.git
 cd CLAP
 
-conda create -n FLAD python=3.7
+conda create -n FLAD python=3.9
 conda activate FLAD
 
 # The results are produced with PyTorch 1.12.1 and CUDA 11.3
@@ -36,6 +36,13 @@ pip install -r requirements.txt
 To setup all the available datasets, plesae download the concatenated features from this [link](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/anas_al-lahham_mbzuai_ac_ae/Ek7OQNDf9tBLqk7AfH4CPAgBP9cvtjCZnIWbrfwGogXlsA?e=TwuRwr)
 
 All the required dataset splits are availble in the project webpage and can be downloaded from [Dataset Splits](https://github.com/AnasEmad11/CLAP/raw/webpage_v3/dataset_splits.zip)
+
+### Dataset
+
+Create a new folder named "datasets" inside the "data" folder and place the downloaded datasets there.
+
+Then, create a new folder named "clusters" inside "data/ucf"
+
 
 ### Dataset Distribution for each split
 <div align="center">
