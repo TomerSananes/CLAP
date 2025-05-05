@@ -14,6 +14,6 @@
         --join_ratio 1 \
         --gmm_pl 1 \
         --eta_clustering 0 \
-        --load 1 \
+        --load 0 \
         --seed 42\
 

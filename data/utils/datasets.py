@@ -1548,7 +1548,7 @@ class Dataset_Con_all_feedback_XD(data.Dataset):
             
             
             if args.dataset == 'ucf':
-                self.con_all = np.load('data/datasets/concat_UCF_V2.npy')
+                self.con_all = np.load('data/datasets/concat_UCF_V2.npy', mmap_mode='r')
             if args.dataset == 'XD':
                 self.con_all = np.load("data/datasets/concat_XD.npy")    
             print('self.con_all shape:',self.con_all.shape)
