@@ -37,7 +37,7 @@ To setup all the available datasets, plesae download the concatenated features f
 
 All the required dataset splits are availble in the project webpage and can be downloaded from [Dataset Splits](https://github.com/AnasEmad11/CLAP/raw/webpage_v3/dataset_splits.zip)
 
-### Dataset
+### Dataset Instructions
 
 Create a new folder named "datasets" inside the "data" folder and place the downloaded datasets there.
 
